@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
         // Create a list of dummy posts
         val dummyPosts = listOf(
             Postdata(author = "philip0789", content = "Tips to get started on planting forest trees and grow the environment!", imageUrl = null, name = "Philip"),
-            Postdata(author = "kerry_0897", content = "I just purchased an electric vehicle today, and I'm excited to reduce my daily carbon emissions by around 20%! #GreenSteps #CarbonReduction", imageUrl = null, name = "Kerry"),
+            Postdata(author = "kerry_0897", content = "I just purchased an electric vehicle today, and I'm excited to reduce my daily carbon emissions by around 20%!\n #GreenSteps #CarbonReduction", imageUrl = null, name = "Kerry"),
             Postdata(author = "Phenos@123", content = "I’ve started cycling to the office, reducing my daily carbon emissions by 20%! Every pedal helps contribute to a greener environment. Let's take steps towards sustainability together!", imageUrl = null, name = "Phenos"),
-            Postdata(author = "Foros0987", content = "Check out my new electric car!", imageUrl = null, name = "Foros")
+            Postdata(author = "Foros0987", content = "Tips to get started on planting forest trees and grow the environment!", imageUrl = null, name = "Foros")
         )
 
         postAdapter = PostAdapter(dummyPosts.toMutableList())
